@@ -1,104 +1,104 @@
-📊 E-Commerce Sales Analytics Project (SQL)
+📊 E-Commerce Sales Analytics (SQL + Excel + Tableau)
 
 🔹 Project Overview
-This project analyzes an **E-Commerce sales dataset (200 records)** using **MySQL**.  
-The goal was to extract **business insights** about revenue, customers, and sales trends.  
+This project showcases **end-to-end data analysis** on an E-Commerce sales dataset using MySQL, Excel, and Tableau.  
 
-I followed an end-to-end workflow:
-1. Imported raw data into MySQL.
-2. Cleaned and structured data (handled dates, data types).
-3. Wrote SQL queries (Apna College style) to answer business questions.
-4. Compiled a professional report (PDF).
-5. Built dashboards in Excel & Tableau for visualization.
-
-
-🔹 Dataset
-- Rows: 200  
-- Columns: `order_id, customer_id, product, category, quantity, price, order_date, month, region, revenue, recency`  
-- Date Format: `DD-MM-YYYY`  
-
-
-🔹 Tools Used
-- MySQL → database & analysis  
-- Excel / Tableau** → dashboard visualization  
-- GitHub → portfolio showcase  
-
-
-🔹 Key SQL Queries & Insights
-1. Total Orders & Customers
-sql
-SELECT COUNT(order_id) AS total_orders FROM sales;
-SELECT COUNT(DISTINCT customer_id) AS total_customers FROM sales;
-
-📌 Result: 200 orders placed by 46 unique customers.*
+The workflow covers:
+1. Data Import → Load dataset into MySQL  
+2. SQL Queries → Clean & analyze sales patterns  
+3. Excel & Tableau Dashboards → Visualize insights for business decisions  
 
 ---
 
-2. Top 5 Products by Revenue
-sql
+🔹 Dataset
+- 📂 File: `ecommerce_dataset.csv` (200 records)  
+- 🧾 Columns:  
+  - `order_id, customer_id, product, category, quantity, price, order_date, month, region, revenue, recency`  
+
+---
+
+🔹 Tools & Technologies
+- MySQL → querying & analysis  
+- Excel → pivot tables & charts  
+- Tableau → interactive dashboard  
+- GitHub → portfolio showcase  
+
+---
+
+🔹 SQL Analysis
+Queries written in Apna College style (simple + readable).  
+
+📂 File: `SQL queries.sql`  
+
+Example queries:  
+
+```sql
+-- Total Orders
+SELECT COUNT(order_id) AS total_orders FROM sales;
+
+-- Unique Customers
+SELECT COUNT(DISTINCT customer_id) AS total_customers FROM sales;
+
+-- Top 5 Products by Revenue
 SELECT product, SUM(revenue) AS total_revenue
 FROM sales
 GROUP BY product
 ORDER BY total_revenue DESC
 LIMIT 5;
 
-📌 Top products accounted for ~40% of total revenue.
-
-
-
-3. Monthly Sales Trend
-sql
+-- Monthly Sales Trend
 SELECT MONTH(order_date) AS month_no, SUM(revenue) AS monthly_sales
 FROM sales
 GROUP BY MONTH(order_date)
 ORDER BY month_no;
+```
 
-📌 Sales peaked in March and July, showing seasonal demand.
+---
 
+🔹 Dashboard (Tableau + Excel)
 
-4. Regional Sales
-sql
-SELECT region, SUM(revenue) AS region_sales
-FROM sales
-GROUP BY region
-ORDER BY region_sales DESC;
+📈 Tableau Dashboard  
+![Dashboard](Dashboard%201%20(2).png)
 
-📌 South and West regions dominated sales contributions.
+Highlights:
+- Top contributing products & customers  
+- Revenue by region (map view)  
+- Monthly sales trend  
+- KPIs: Total revenue, orders, AOV, customers  
 
+📊 Excel Analysis
+📂 File: `Ecommerce_Sales_Portfolio EXCEL.xlsx`  
+Contains pivot tables & charts for:
+- Monthly revenue  
+- Category-wise contribution  
+- Customer segmentation  
 
-5. High Value Customers
-sql
-SELECT customer_id, SUM(revenue) AS total_spent
-FROM sales
-GROUP BY customer_id
-HAVING total_spent > 1000
-ORDER BY total_spent DESC;
-
-📌 Identified 15 high-value customers (ideal for loyalty programs).
-
+---
 
 🔹 Deliverables
-- 📄 ecommerce_sql_project.pdf – problem statements, queries & insights  
-- 💾 insert_sales.sql – load dataset into MySQL  
-- 📜 queries.sql – full list of queries  
-- 📊 Tableau & Excel dashboard screenshots  
+- `insert_sales.sql` → Insert dataset into MySQL  
+- `SQL queries.sql` → All analysis queries  
+- `ecommerce_dataset.csv` → Original dataset  
+- `Ecommerce_Sales_Portfolio EXCEL.xlsx` → Excel analysis  
+- `Dashboard 1 (2).png` → Tableau dashboard screenshot  
 
 ---
 
-🔹 Insights Summary
-- Top products & categories drive the majority of revenue.  
-- Seasonal patterns exist (spikes in March & July).  
-- South & West regions are the strongest sales contributors.  
-- High-value customers segment identified for retention strategies.  
-- Recency segmentation shows customer churn & re-engagement opportunities.  
+🔹 Key Insights
+- Cameras, Printers, and Smartphones are top revenue drivers  
+- South & West regions generate the most sales  
+- Sales peak in March, April, and June (seasonality effect)  
+- Identified high-value customers (spending > ₹1000) for loyalty focus  
+- Average order value (AOV) is around ₹1,100  
 
 ---
 
-🔹 How to Run
-1. Import dataset with 'insert_sales.sql'
-2. Run queries from 'queries.sql'  
-3. Review insights in the PDF or build your own dashboard  
+## 🔹 How to Run
+1. Import `insert_sales.sql` into MySQL  
+2. Run queries from `SQL queries.sql`  
+3. Open `Ecommerce_Sales_Portfolio EXCEL.xlsx` for Excel insights  
+4. Open Tableau workbook or view dashboard screenshot  
 
 ---
 
-✨ This project demonstrates end-to-end data analysis with SQL from raw data to business insights & reporting.
+✨ This project demonstrates the complete analytics pipeline: SQL + Excel + Tableau → Actionable Insights.  
