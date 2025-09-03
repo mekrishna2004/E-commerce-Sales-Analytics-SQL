@@ -28,7 +28,7 @@ The workflow covers:
 🔹 SQL Analysis
 Queries written in Apna College style (simple + readable).  
 
-📂 File: - SQL: [queries.sql](sql/queries.sql) • [insert_sales.sql](sql/insert_sales.sql)
+📂 File: - SQL: [queries.sql](sql/queries.sql) 
 
 Example queries:  
 
@@ -58,8 +58,7 @@ ORDER BY month_no;
 🔹 Dashboard (Tableau + Excel)
 
 📈 Tableau Dashboard  
-- Dashboard image: ![Dashboard](analysis/dashboard_overview.png)
-- - Tableau workbook: [Tableau_Dashboard.twbx](analysis/Tableau_Dashboard.twbx)
+- Tableau workbook: [Tableau_Dashboard.twbx](analysis/Tableau_Dashboard.twbx)
 
 Highlights:
 - Top contributing products & customers  
@@ -100,7 +99,7 @@ Contains pivot tables & charts for:
 2. Run queries from SQL: [queries.sql](sql/queries.sql)  
 3. Open Analysis (Excel): [Excel_Analysis.xlsx](analysis/Excel_Analysis.xlsx) for Excel insights  
 4. Open Tableau workbook: [Tableau_Dashboard.twbx](analysis/Tableau_Dashboard.twbx)
-5. view Dashboard image: ![Dashboard](analysis/dashboard_overview.png)
+5. view Dashboard image: [Tableau_Dashboard.twbx](analysis/Tableau_Dashboard.twbx)
 
 ---
 
