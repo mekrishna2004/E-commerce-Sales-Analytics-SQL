@@ -68,6 +68,7 @@ Highlights:
 - KPIs: Total revenue, orders, AOV, customers  
 
 📊 Excel Analysis
+
 📂 File: - Analysis (Excel): [Excel_Analysis.xlsx](analysis/Excel_Analysis.xlsx)  
 Contains pivot tables & charts for:
 - Monthly revenue  
@@ -95,10 +96,11 @@ Contains pivot tables & charts for:
 ---
 
 🔹 How to Run
-1. Import `insert_sales.sql` into MySQL  
-2. Run queries from `SQL queries.sql`  
-3. Open `Ecommerce_Sales_Portfolio EXCEL.xlsx` for Excel insights  
-4. Open Tableau workbook or view dashboard screenshot  
+1. Import [insert_sales.sql](sql/insert_sales.sql) into MySQL  
+2. Run queries from SQL: [queries.sql](sql/queries.sql)  
+3. Open Analysis (Excel): [Excel_Analysis.xlsx](analysis/Excel_Analysis.xlsx) for Excel insights  
+4. Open Tableau workbook: [Tableau_Dashboard.twbx](analysis/Tableau_Dashboard.twbx)
+5. view Dashboard image: ![Dashboard](analysis/dashboard_overview.png)
 
 ---
 
