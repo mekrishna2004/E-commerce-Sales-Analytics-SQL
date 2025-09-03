@@ -79,7 +79,7 @@ Contains pivot tables & charts for:
 - `insert_sales.sql` → Insert dataset into MySQL  
 - `SQL queries.sql` → All analysis queries  
 - `ecommerce_dataset.csv` → Original dataset  
-- `Ecommerce_Sales_Portfolio EXCEL.xlsx` → Excel analysis  
+- `Ecommerce_Sales_Portfolio EXCEL.xlsx` → Excel analysis, charts, pivot 
 - `Dashboard 1 (2).png` → Tableau dashboard screenshot  
 
 ---
@@ -93,7 +93,7 @@ Contains pivot tables & charts for:
 
 ---
 
-## 🔹 How to Run
+🔹 How to Run
 1. Import `insert_sales.sql` into MySQL  
 2. Run queries from `SQL queries.sql`  
 3. Open `Ecommerce_Sales_Portfolio EXCEL.xlsx` for Excel insights  
