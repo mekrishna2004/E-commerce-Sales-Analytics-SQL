@@ -1,5 +1,22 @@
 -- E-Commerce Sales Analytics (Apna College style)
 
+CREATE DATABASE IF NOT EXISTS ecommerce;
+USE ecommerce;
+
+CREATE TABLE sales (
+  order_id VARCHAR(10) PRIMARY KEY,
+  customer_id VARCHAR(10),
+  product VARCHAR(100),
+  category VARCHAR(50),
+  quantity INT,
+  price DECIMAL(10,2),
+  order_date DATE,
+  month VARCHAR(20),       
+  region VARCHAR(50),
+  revenue DECIMAL(12,2),
+  recency INT
+);
+
 -- 1) View data
 SELECT * FROM sales LIMIT 10;
 
