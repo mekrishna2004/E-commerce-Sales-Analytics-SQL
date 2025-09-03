@@ -78,11 +78,11 @@ Contains pivot tables & charts for:
 ---
 
 🔹 Deliverables
-- `insert_sales.sql` → Insert dataset into MySQL  
-- `SQL queries.sql` → All analysis queries  
-- `ecommerce_dataset.csv` → Original dataset  
-- `Ecommerce_Sales_Portfolio EXCEL.xlsx` → Excel analysis, charts, pivot 
-- `Dashboard 1 (2).png` → Tableau dashboard screenshot  
+- [insert_sales.sql](sql/insert_sales.sql) → Insert dataset into MySQL  
+- [queries.sql](sql/queries.sql) → All analysis queries  
+- [ecommerce_dataset.csv](data/ecommerce_dataset.csv) → Original dataset  
+- [Excel_Analysis.xlsx](analysis/Excel_Analysis.xlsx) → Excel analysis, charts, pivot 
+- ![Dashboard](analysis/dashboard_overview.png) → Tableau dashboard screenshot  
 
 ---
 
