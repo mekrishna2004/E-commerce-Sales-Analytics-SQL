@@ -72,7 +72,11 @@ Highlights:
 Contains pivot tables & charts for:
 - Monthly revenue  
 - Category-wise contribution  
-- Customer segmentation  
+- Customer segmentation
+- Monthly sales trend
+- Top selling products
+- Revenue per customer
+- Regional performance
 
 ---
 
