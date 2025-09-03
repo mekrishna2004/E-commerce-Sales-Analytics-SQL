@@ -58,7 +58,7 @@ ORDER BY month_no;
 🔹 Dashboard (Tableau + Excel)
 
 📈 Tableau Dashboard  
-![Dashboard](Dashboard%201%20(2).png)
+Tableau Dashboard Overview.png
 
 Highlights:
 - Top contributing products & customers  
