@@ -11,7 +11,7 @@ The workflow covers:
 ---
 
 🔹 Dataset
-- 📂 File: `ecommerce_dataset.csv` (200 records)  
+- 📂 File: - Data: [ecommerce_dataset.csv](data/ecommerce_dataset.csv) (200 records)  
 - 🧾 Columns:  
   - `order_id, customer_id, product, category, quantity, price, order_date, month, region, revenue, recency`  
 
@@ -28,7 +28,7 @@ The workflow covers:
 🔹 SQL Analysis
 Queries written in Apna College style (simple + readable).  
 
-📂 File: `SQL queries.sql`  
+📂 File: - SQL: [queries.sql](sql/queries.sql) • [insert_sales.sql](sql/insert_sales.sql)
 
 Example queries:  
 
@@ -58,7 +58,8 @@ ORDER BY month_no;
 🔹 Dashboard (Tableau + Excel)
 
 📈 Tableau Dashboard  
-Tableau Dashboard Overview.png
+- Dashboard image: ![Dashboard](analysis/dashboard_overview.png)
+- - Tableau workbook: [Tableau_Dashboard.twbx](analysis/Tableau_Dashboard.twbx)
 
 Highlights:
 - Top contributing products & customers  
@@ -67,7 +68,7 @@ Highlights:
 - KPIs: Total revenue, orders, AOV, customers  
 
 📊 Excel Analysis
-📂 File: `Ecommerce_Sales_Portfolio EXCEL.xlsx`  
+📂 File: - Analysis (Excel): [Excel_Analysis.xlsx](analysis/Excel_Analysis.xlsx)  
 Contains pivot tables & charts for:
 - Monthly revenue  
 - Category-wise contribution  
