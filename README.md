@@ -88,7 +88,7 @@ Contains pivot tables & charts for:
 
 🔹 Key Insights
 - Cameras, Printers, and Smartphones are top revenue drivers  
-- South & West regions generate the most sales  
+- South & North regions generate the most sales  
 - Sales peak in March, April, and June (seasonality effect)  
 - Identified high-value customers (spending > ₹1000) for loyalty focus  
 - Average order value (AOV) is around ₹1,100  
