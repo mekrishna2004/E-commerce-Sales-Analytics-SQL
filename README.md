@@ -81,7 +81,8 @@ Contains pivot tables & charts for:
 - [queries.sql](sql/queries.sql) → All analysis queries  
 - [ecommerce_dataset.csv](data/ecommerce_dataset.csv) → Original dataset  
 - [Excel_Analysis.xlsx](analysis/Excel_Analysis.xlsx) → Excel analysis, charts, pivot 
-- ![Dashboard](analysis/dashboard_overview.png) → Tableau dashboard screenshot  
+- Tableau dashboard screenshot
+  ![Dashboard](analysis/dashboard_overview.png) 
 
 ---
 
